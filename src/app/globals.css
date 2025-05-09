@@ -6,7 +6,10 @@
     --color-accent-magenta: #d33682;
     --color-accent-yellow: #b58900;
     --color-bland-grey: #e5e5e5;
-    --animate-typing: typing 1s ease-in-out;
+    --animate-typing: typing 1s ease-in-out forwards;
+    --animate-typing-delay-1: typing 2s ease-in-out 1s both;
+    --animate-typing-delay-2: typing 3s ease-in-out 2s both;
+    --animate-typing-loop: typing 2s ease-in-out both infinite;
 
     @keyframes typing {
         0% {
